@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="classpath:logo.properties, classpath:registration.properties" />
+
+    <bean id="logoConsoleView" class="ru.otus.spring.prokopov.consoleview.LogoConsoleView"/>
+
+    <bean id="testingConsoleView" class="ru.otus.spring.prokopov.consoleview.TestingConsoleView"/>
+
+    <bean id="personDAO" class="ru.otus.spring.prokopov.dao.PersonDaoImpl"/>
+    
+    <bean id="questionDAO" class="ru.otus.spring.prokopov.dao.QuestionDAOImpl">
+        <constructor-arg name="pathCsvQuestionResource" value="csv/questions_en_EN.csv"/>
+    </bean>
+
+    <bean id="personService" class="ru.otus.spring.prokopov.service.PersonServiceImpl">
+        <constructor-arg name="personDao" ref="personDAO"/>
+    </bean>
+    
+    <bean id="questionService" class="ru.otus.spring.prokopov.service.QuestionServiceImpl">
+        <constructor-arg name="personService" ref="personService"/>
+        <constructor-arg name="questionDAO" ref="questionDAO"/>
+    </bean>
+
+    <bean id="messageQuestionService" class="ru.otus.spring.prokopov.service.MessageQuestionServiceImpl"/>
+
+    <bean id="questionController" class="ru.otus.spring.prokopov.controller.QuestionTestingController">
+        <constructor-arg name="consoleView" ref="testingConsoleView"/>
+        <constructor-arg name="messageQuestionService" ref="messageQuestionService"/>
+        <constructor-arg name="personService" ref="personService"/>
+        <constructor-arg name="questionService" ref="questionService"/>
+    </bean>
+
+
+    <bean id="regController" class="ru.otus.spring.prokopov.controller.RegistrationTestingController">
+        <constructor-arg name="consoleView" ref="testingConsoleView"/>
+        <constructor-arg name="personService" ref="personService"/>
+        <constructor-arg name="greeting" value="${greeting}"/>
+        <constructor-arg name="promptedEnterFirstName" value="${promptedEnterFirstName}"/>
+        <constructor-arg name="promptedEnterSecondName" value="${promptedEnterSecondName}"/>
+        <constructor-arg name="promptedEnterAge" value="${promptedEnterAge}"/>
+        <constructor-arg name="notNumberError" value="${notNumberError}"/>
+    </bean>
+
+    <bean id="logoController" class="ru.otus.spring.prokopov.controller.LogoTestingController">
+        <constructor-arg name="consoleViewOutput" ref="logoConsoleView"/>
+        <constructor-arg value="${logo}"/>
+    </bean>
+
+    <bean id="main" class="ru.otus.spring.prokopov.controller.MainTestingController">
+        <constructor-arg name="logoController" ref="logoController"/>
+        <constructor-arg name="registrationController" ref="regController"/>
+        <constructor-arg name="questionController" ref="questionController"/>
+    </bean>
+</beans>
