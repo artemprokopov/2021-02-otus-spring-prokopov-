@@ -10,3 +10,6 @@
 
 #1. Введение в Spring Framework
 >Папка: introduction-to-spring-framework
+
+#2. Конфигурирование Spring-приложений
+>Папка: configuring-spring-based-applications
