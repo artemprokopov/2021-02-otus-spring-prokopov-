@@ -12,8 +12,7 @@ import java.util.List;
 import java.util.Locale;
 import static org.assertj.core.api.Assertions.assertThat;
 
-
-@SpringBootTest(classes = {LocaleDaoImpl.class, LocaleSettings.class, QuestionDAOImpl.class})
+@SpringBootTest(classes = {LocaleDaoImpl.class, LocaleSettings.class, QuestionDAOImpl.class, FileReaderImpl.class})
 class QuestionDAOImplTest {
 
     @Autowired
@@ -21,7 +20,7 @@ class QuestionDAOImplTest {
     @Autowired
     private  QuestionDAO questionDAO;
 
-    @DisplayName("Проверяем чтение вопросов из csv файла")
+    @DisplayName("Интеграционный тест Проверяем чтение вопросов из csv файла")
     @Test
     void getAllQuestion() throws IOException {
 
