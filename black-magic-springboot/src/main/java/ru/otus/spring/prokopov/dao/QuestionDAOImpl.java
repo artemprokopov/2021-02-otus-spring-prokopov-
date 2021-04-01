@@ -25,17 +25,12 @@ import java.util.Map;
 @EnableConfigurationProperties(MessageSource.class)
 public class QuestionDAOImpl implements QuestionDAO {
 
-    private final MessageSource messageSource;
-    private final LocaleDAO localeDAO;
+    private final FileReader fileReader;
 
     @Override
     public List<Question> getAllQuestion() throws IOException {
         List<Question> result = Collections.emptyList();
-        Map<String, String> localesMessage = localeDAO.getLocale().getLanguage().equals("ru") ? messageSource.getRu() : messageSource.getEn();
-        ClassPathResource classPathResource = new ClassPathResource(localesMessage.get("question-file"));
-        InputStream resource = classPathResource.getInputStream();
-        try (Reader reader = new BufferedReader(new InputStreamReader(resource))) {
-
+        try (Reader reader = fileReader.getFileReade()) {
             MappingStrategy<Question> strategy= new HeaderColumnNameMappingStrategy<>();
             strategy.setType(Question.class);
             CsvToBean<Question> csvToBean = new CsvToBeanBuilder<Question>(reader)
@@ -43,6 +38,8 @@ public class QuestionDAOImpl implements QuestionDAO {
                     .withIgnoreLeadingWhiteSpace(true)
                     .build();
             result = csvToBean.parse();
+        } catch (IOException ioe) {
+            ioe.printStackTrace();
         }
         return result;
     }
