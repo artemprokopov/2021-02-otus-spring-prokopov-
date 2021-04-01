@@ -13,3 +13,9 @@
 
 #2. Конфигурирование Spring-приложений
 >Папка: configuring-spring-based-applications
+
+#3. Черная магия Spring Boot
+>Папка: black-magic-springboot
+
+#4. Продвинутая конфигурация Spring-приложений
+>Папка: advanced-configuration-springboot

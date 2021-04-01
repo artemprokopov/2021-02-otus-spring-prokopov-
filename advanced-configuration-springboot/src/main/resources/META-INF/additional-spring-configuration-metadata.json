@@ -1,0 +1,148 @@
+{
+  "properties": [
+    {
+      "name": "locales.en.question-file",
+      "type": "java.lang.String",
+      "description": "Description for locales.en.question-file."
+    },
+    {
+      "name": "locales.en.select-lang-Ru",
+      "type": "java.lang.String",
+      "description": "Description for locales.en.select-lang-Ru."
+    },
+    {
+      "name": "locales.en.answer-correct",
+      "type": "java.lang.String",
+      "description": "Description for locales.en.answer-correct."
+    },
+    {
+      "name": "locales.en.select-lang-En",
+      "type": "java.lang.String",
+      "description": "Description for locales.en.select-lang-En."
+    },
+    {
+      "name": "locales.en.registration-greeting",
+      "type": "java.lang.String",
+      "description": "Description for locales.en.registration-greeting."
+    },
+    {
+      "name": "locales.en.registration-promptedEnterFirstName",
+      "type": "java.lang.String",
+      "description": "Description for locales.en.registration-promptedEnterFirstName."
+    },
+    {
+      "name": "locales.en.registration-promptedEnterSecondName",
+      "type": "java.lang.String",
+      "description": "Description for locales.en.registration-promptedEnterSecondName."
+    },
+    {
+      "name": "locales.en.registration-promptedEnterAge",
+      "type": "java.lang.String",
+      "description": "Description for locales.en.registration-promptedEnterAge."
+    },
+    {
+      "name": "locales.en.registration-notNumberError",
+      "type": "java.lang.String",
+      "description": "Description for locales.en.registration-notNumberError."
+    },
+    {
+      "name": "locales.en.answer-wrong",
+      "type": "java.lang.String",
+      "description": "Description for locales.en.answer-wrong."
+    },
+    {
+      "name": "locales.en.test-result",
+      "type": "java.lang.String",
+      "description": "Description for locales.en.test-result."
+    },
+    {
+      "name": "locales.en.test-passed",
+      "type": "java.lang.String",
+      "description": "Description for locales.en.test-passed."
+    },
+    {
+      "name": "locales.en.test-failed",
+      "type": "java.lang.String",
+      "description": "Description for locales.en.test-failed."
+    },
+    {
+      "name": "locales.ru.question-file",
+      "type": "java.lang.String",
+      "description": "Description for locales.ru.question-file."
+    },
+    {
+      "name": "locales.ru.select",
+      "type": "java.lang.String",
+      "description": "Description for locales.ru.select."
+    },
+    {
+      "name": "locales.ru.select-lang-En",
+      "type": "java.lang.String",
+      "description": "Description for locales.ru.select-lang-En."
+    },
+    {
+      "name": "locales.ru.select-lang-Ru",
+      "type": "java.lang.String",
+      "description": "Description for locales.ru.select-lang-Ru."
+    },
+    {
+      "name": "locales.ru.registration-greeting",
+      "type": "java.lang.String",
+      "description": "Description for locales.ru.registration-greeting."
+    },
+    {
+      "name": "locales.ru.registration-promptedEnterFirstName",
+      "type": "java.lang.String",
+      "description": "Description for locales.ru.registration-promptedEnterFirstName."
+    },
+    {
+      "name": "locales.ru.registration-promptedEnterSecondName",
+      "type": "java.lang.String",
+      "description": "Description for locales.ru.registration-promptedEnterSecondName."
+    },
+    {
+      "name": "locales.ru.registration-promptedEnterAge",
+      "type": "java.lang.String",
+      "description": "Description for locales.ru.registration-promptedEnterAge."
+    },
+    {
+      "name": "locales.ru.registration-notNumberError",
+      "type": "java.lang.String",
+      "description": "Description for locales.ru.registration-notNumberError."
+    },
+    {
+      "name": "locales.ru.answer-correct",
+      "type": "java.lang.String",
+      "description": "Description for locales.ru.answer-correct."
+    },
+    {
+      "name": "locales.ru.answer-wrong",
+      "type": "java.lang.String",
+      "description": "Description for locales.ru.answer-wrong."
+    },
+    {
+      "name": "locales.ru.test-result",
+      "type": "java.lang.String",
+      "description": "Description for locales.ru.test-result."
+    },
+    {
+      "name": "locales.ru.test-passed",
+      "type": "java.lang.String",
+      "description": "Description for locales.ru.test-passed."
+    },
+    {
+      "name": "locales.ru.test-failed",
+      "type": "java.lang.String",
+      "description": "Description for locales.ru.test-failed."
+    },
+    {
+      "name": "locales.en.select",
+      "type": "java.lang.String",
+      "description": "Description for locales.en.select."
+    },
+    {
+      "name": "min.point",
+      "type": "java.lang.Integer",
+      "description": "Description for min.point."
+    }
+  ] }
