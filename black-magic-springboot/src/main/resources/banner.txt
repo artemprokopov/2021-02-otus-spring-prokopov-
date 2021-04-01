@@ -1,0 +1,33 @@
+${AnsiBackground.232}${AnsiColor.RED},-.----.                                                                                
+${AnsiBackground.232}${AnsiColor.RED}\    /  \                              ,-.                                              
+${AnsiBackground.232}${AnsiColor.RED}|   :    \                         ,--/ /|             ,-.----.                         
+${AnsiBackground.232}${AnsiColor.RED}|   |  .\ :   __  ,-.    ,---.   ,--. :/ |     ,---.   \    /  \     ,---.              
+${AnsiBackground.233}${AnsiColor.RED}.   :  |: | ,' ,'/ /|   '   ,'\  :  : ' /     '   ,'\  |   :    |   '   ,'\       .---. 
+${AnsiBackground.233}${AnsiColor.RED}|   |   \ : '  | |' |  /   /   | |  '  /     /   /   | |   | .\ :  /   /   |    /.  ./| 
+${AnsiBackground.233}${AnsiColor.RED}|   : .   / |  |   ,' .   ; ,. : '  |  :    .   ; ,. : .   : |: | .   ; ,. :  .-' . ' | 
+${AnsiBackground.233}${AnsiColor.RED};   | |`-'  '  :  /   '   | |: : |  |   \   '   | |: : |   |  \ : '   | |: : /___/ \: | 
+${AnsiBackground.234}${AnsiColor.RED}|   | ;     |  | '    '   | .; : '  : |. \  '   | .; : |   : .  | '   | .; : .   \  ' . 
+${AnsiBackground.234}${AnsiColor.RED}:   ' |     ;  : |    |   :    | |  | ' \ \ |   :    | :     |`-' |   :    |  \   \   ' 
+${AnsiBackground.234}${AnsiColor.RED}:   : :     |  , ;     \   \  /  '  : |--'   \   \  /  :   : :     \   \  /    \   \    
+${AnsiBackground.234}${AnsiColor.RED}|   | :      ---'       `----'   ;  |,'       `----'   |   | :      `----'      \   \ | 
+${AnsiBackground.235}${AnsiColor.RED}`---'.|                          '--'                  `---'.|                   '---"  
+${AnsiBackground.235}${AnsiColor.RED}  `---`                                                  `---`                          
+${AnsiBackground.235}
+${AnsiBackground.235}${AnsiColor.YELLOW}          ,----,                                                                                                                     
+${AnsiBackground.236}${AnsiColor.YELLOW}      ,/   .`|                                                                                                                     
+${AnsiBackground.236}${AnsiColor.YELLOW}    ,`   .'  :                             ___         .--.--.                                 ___                          ____   
+${AnsiBackground.236}${AnsiColor.YELLOW}  ;    ;     /                           ,--.'|_      /  /    '.                             ,--.'|_                      ,'  , `. 
+${AnsiBackground.236}${AnsiColor.YELLOW}.'___,/    ,'                            |  | :,'    |  :  /`. /                             |  | :,'                  ,-+-,.' _ | 
+${AnsiBackground.237}${AnsiColor.YELLOW}|    :     |                .--.--.      :  : ' :    ;  |  |--`                 .--.--.      :  : ' :               ,-+-. ;   , || 
+${AnsiBackground.237}${AnsiColor.YELLOW};    |.';  ;      ,---.    /  /    '   .;__,'  /     |  :  ;_           .--,   /  /    '   .;__,'  /      ,---.    ,--.'|'   |  || 
+${AnsiBackground.237}${AnsiColor.YELLOW}`----'  |  |     /     \  |  :  /`./   |  |   |       \  \    `.      /_ ./|  |  :  /`./   |  |   |      /     \  |   |  ,', |  |, 
+${AnsiBackground.237}${AnsiColor.YELLOW}    '   :  ;    /    /  | |  :  ;_     :__,'| :        `----.   \  , ' , ' :  |  :  ;_     :__,'| :     /    /  | |   | /  | |--'  
+${AnsiBackground.238}${AnsiColor.YELLOW}    |   |  '   .    ' / |  \  \    `.    '  : |__      __ \  \  | /___/ \: |   \  \    `.    '  : |__  .    ' / | |   : |  | ,     
+${AnsiBackground.238}${AnsiColor.YELLOW}    '   :  |   '   ;   /|   `----.   \   |  | '.'|    /  /`--'  /  .  \  ' |    `----.   \   |  | '.'| '   ;   /| |   : |  |/      
+${AnsiBackground.238}${AnsiColor.YELLOW}    ;   |.'    '   |  / |  /  /`--'  /   ;  :    ;   '--'.     /    \  ;   :   /  /`--'  /   ;  :    ; '   |  / | |   | |`-'       
+${AnsiBackground.238}${AnsiColor.YELLOW}    '---'      |   :    | '--'.     /    |  ,   /      `--'---'      \  \  ;  '--'.     /    |  ,   /  |   :    | |   ;/           
+${AnsiBackground.239}${AnsiColor.YELLOW}                \   \  /    `--'---'      ---`-'                      :  \  \   `--'---'      ---`-'    \   \  /  '---'            
+${AnsiBackground.239}${AnsiColor.YELLOW}                 `----'                                                \  ' ;                            `----'                    
+${AnsiBackground.239}${AnsiColor.YELLOW}                                                                        `--`                                                       
+${AnsiBackground.239}${AnsiColor.YELLOW}    
+${AnsiBackground.240}${AnsiColor.YELLOW}    
